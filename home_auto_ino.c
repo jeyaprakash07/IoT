@@ -1,8 +1,3 @@
-
-
-
-
-
 byte val;
 
 void setup()
@@ -53,7 +48,6 @@ if(int(val)==57)//Lock the DOOR
    
  else if(int(val)==48)//Unlock the DOOR
        digitalWrite(6,LOW);
-
 }
 }
 
